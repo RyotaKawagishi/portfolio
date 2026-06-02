@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prepare": "git config core.hooksPath .githooks",
     "typecheck": "tsc -b --noEmit",
+    "check": "npm run typecheck && npm run lint && npm run build",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
