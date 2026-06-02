@@ -1,33 +1,27 @@
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
+import { Layout } from './components/Layout'
+import { AboutPage } from './pages/AboutPage'
+import { HomePage } from './pages/HomePage'
+
+const router = createBrowserRouter([
+  {
+    element: <Layout />,
+    children: [
+      {
+        path: '/',
+        element: <HomePage />,
+      },
+      {
+        path: '/about',
+        element: <AboutPage />,
+      },
+    ],
+  },
+])
 
 function App() {
-  return (
-    <main className="site-shell">
-      <section className="hero" aria-labelledby="page-title">
-        <p className="eyebrow">Portfolio</p>
-        <h1 id="page-title">Taro Yamada</h1>
-        <p className="lead">
-          Frontend developer building simple, useful web experiences.
-        </p>
-      </section>
-
-      <section className="section" id="about" aria-labelledby="about-title">
-        <h2 id="about-title">About</h2>
-        <p>
-          I create accessible interfaces with React, TypeScript, and practical
-          design systems.
-        </p>
-      </section>
-
-      <section className="section" id="contact" aria-labelledby="contact-title">
-        <h2 id="contact-title">Contact</h2>
-        <p>
-          For project inquiries, contact me at{' '}
-          <a href="mailto:taro@example.com">taro@example.com</a>.
-        </p>
-      </section>
-    </main>
-  )
+  return <RouterProvider router={router} />
 }
 
 export default App
