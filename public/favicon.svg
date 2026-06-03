@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-label="Pixel fish icon">
   <rect width="48" height="48" rx="10" fill="#07131d"/>
   <rect x="4" y="4" width="40" height="40" rx="7" fill="#0c2130"/>
-  <path fill="#f8fcff" d="M18 18h14v4h4v4h-4v4H18v-4h-4v4h-4v-4H6v-4h4v-4h4v4h4z"/>
-  <path fill="#f6c177" d="M32 18h4v4h-4z"/>
-  <path fill="#07131d" d="M30 22h4v4h-4z"/>
-  <path fill="#66d9ef" fill-opacity=".42" d="M10 10h4v4h-4zm26 24h4v4h-4z"/>
+  <path fill="#f8fcff" d="M21 10h8v4h4v4h4v4h4v8h-4v4h-4v4h-4v4h-8v-4h-4v-4h-4v-4H9v4H5v-4H1v-8h4v-4h4v4h4v-4h4v-4h4z"/>
+  <path fill="#9fb2c1" d="M29 18h4v4h4v8h-4v4h-4z" opacity=".58"/>
+  <path fill="#07131d" d="M13 22h4v4h-4zm4-4h4v4h-4zm0 8h4v4h-4z"/>
+  <path fill="#66d9ef" fill-opacity=".42" d="M34 10h4v4h-4zm4 28h4v4h-4z"/>
 </svg>
