@@ -4,7 +4,7 @@ import { SkillSection } from '../components/SkillSection'
 
 export function AboutPage() {
   return (
-    <main>
+    <main className="page">
       <SkillSection />
       <ExperienceSection />
       <EducationSection />
