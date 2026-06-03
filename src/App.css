@@ -46,10 +46,10 @@
   --fish-duration: 28s;
   --fish-scale: 1;
   position: absolute;
-  left: -96px;
+  left: -84px;
   top: var(--fish-top);
-  width: 76px;
-  height: 48px;
+  width: 64px;
+  height: 40px;
   image-rendering: pixelated;
   transform: scale(var(--fish-scale));
   animation: fish-swim var(--fish-duration) linear infinite;
@@ -65,62 +65,49 @@
 }
 
 .fish-body {
-  left: 14px;
-  top: 4px;
-  width: 38px;
-  height: 40px;
-  background: rgba(241, 247, 250, 0.9);
+  left: 12px;
+  top: 5px;
+  width: 34px;
+  height: 30px;
+  background: rgba(248, 252, 255, 0.86);
   clip-path: polygon(
-    42% 0,
-    62% 0,
-    62% 12%,
-    76% 12%,
-    76% 24%,
-    88% 24%,
-    88% 38%,
-    100% 38%,
-    100% 62%,
-    88% 62%,
-    88% 76%,
-    76% 76%,
-    76% 88%,
-    62% 88%,
-    62% 100%,
-    42% 100%,
-    42% 88%,
-    24% 88%,
-    24% 76%,
-    12% 76%,
-    12% 62%,
-    0 62%,
-    0 38%,
-    12% 38%,
-    12% 24%,
-    24% 24%,
-    24% 12%,
-    42% 12%
+    36% 0,
+    64% 0,
+    64% 12%,
+    78% 12%,
+    78% 26%,
+    92% 26%,
+    92% 40%,
+    100% 40%,
+    100% 60%,
+    92% 60%,
+    92% 74%,
+    78% 74%,
+    78% 88%,
+    64% 88%,
+    64% 100%,
+    36% 100%,
+    36% 88%,
+    20% 88%,
+    20% 74%,
+    8% 74%,
+    8% 60%,
+    0 60%,
+    0 40%,
+    8% 40%,
+    8% 26%,
+    20% 26%,
+    20% 12%,
+    36% 12%
   );
-}
-
-.fish-body::after {
-  position: absolute;
-  left: 15px;
-  top: 13px;
-  width: 16px;
-  height: 16px;
-  background:
-    linear-gradient(90deg, rgba(6, 16, 23, 0.28) 50%, transparent 0) 0 0 / 8px 8px,
-    linear-gradient(rgba(6, 16, 23, 0.28) 50%, transparent 0) 0 0 / 8px 8px;
-  content: '';
-  opacity: 0.7;
 }
 
 .fish-tail {
   left: 0;
   top: 10px;
-  width: 20px;
-  height: 28px;
-  background: rgba(241, 247, 250, 0.78);
+  width: 18px;
+  height: 20px;
+  background: rgba(248, 252, 255, 0.7);
   clip-path: polygon(
     0 8%,
     26% 8%,
@@ -147,18 +134,11 @@
 }
 
 .fish-eye {
-  left: 44px;
-  top: 17px;
-  width: 12px;
-  height: 12px;
-  background:
-    linear-gradient(90deg, #061017 50%, transparent 0) 0 0 / 6px 6px,
-    linear-gradient(#061017 50%, transparent 0) 0 0 / 6px 6px,
-    #f8fcff;
-  box-shadow:
-    -6px 0 0 #f8fcff,
-    0 -6px 0 #f8fcff,
-    -6px -6px 0 #061017;
+  left: 39px;
+  top: 16px;
+  width: 4px;
+  height: 4px;
+  background: rgba(6, 16, 23, 0.76);
 }
 
 .pixel-fish-b {
@@ -166,13 +146,13 @@
 }
 
 .pixel-fish-b .fish-tail {
-  left: 56px;
+  left: 48px;
   transform: scaleX(-1);
   animation-name: tail-flick-reverse;
 }
 
 .pixel-fish-b .fish-body {
-  left: 24px;
+  left: 18px;
   transform: scaleX(-1);
 }
 
@@ -504,7 +484,7 @@ a {
 
 @keyframes fish-swim {
   0% {
-    transform: translate3d(-96px, 0, 0) scale(var(--fish-scale));
+    transform: translate3d(-84px, 0, 0) scale(var(--fish-scale));
     opacity: 0;
   }
 
@@ -525,14 +505,14 @@ a {
   }
 
   100% {
-    transform: translate3d(calc(100vw + 96px), 18px, 0) scale(var(--fish-scale));
+    transform: translate3d(calc(100vw + 84px), 18px, 0) scale(var(--fish-scale));
     opacity: 0;
   }
 }
 
 @keyframes fish-swim-reverse {
   0% {
-    transform: translate3d(calc(100vw + 96px), 0, 0) scale(var(--fish-scale));
+    transform: translate3d(calc(100vw + 84px), 0, 0) scale(var(--fish-scale));
     opacity: 0;
   }
 
@@ -553,7 +533,7 @@ a {
   }
 
   100% {
-    transform: translate3d(-96px, -18px, 0) scale(var(--fish-scale));
+    transform: translate3d(-84px, -18px, 0) scale(var(--fish-scale));
     opacity: 0;
   }
 }
