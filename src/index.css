@@ -1,5 +1,6 @@
 :root {
   --text: #c8d3df;
+  --text-soft: #9fb2c1;
   --text-h: #f8fbff;
   --bg: #08111f;
   --surface: rgba(14, 27, 45, 0.72);
@@ -16,8 +17,8 @@
   --cursor-x: 50vw;
   --cursor-y: 50vh;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: Inter, ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: 'Arial Rounded MT Bold', Inter, ui-sans-serif, system-ui, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
@@ -62,6 +63,7 @@ h1 {
   }
 }
 h2 {
+  font-weight: 750;
   font-size: 24px;
   line-height: 118%;
   letter-spacing: 0;
