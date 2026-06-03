@@ -23,7 +23,7 @@ export function ExperienceSection() {
                 <li key={technology}>{technology}</li>
               ))}
             </ul>
-            <p>{experience.learning}</p>
+            {experience.learning ? <p>{experience.learning}</p> : null}
           </article>
         ))}
       </div>

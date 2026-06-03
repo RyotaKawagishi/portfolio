@@ -11,6 +11,6 @@ export const education: Education[] = [
     school: 'Keio University',
     period: 'Apr 2023 - present',
     summary:
-      'Studying applied physics, mathematical modeling, and computational approaches.',
+      'I study statistical mechanics, quantum mechanics, and computational physics. My research focuses on the distillation of Restricted Boltzmann Machines.',
   },
 ]

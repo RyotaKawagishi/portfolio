@@ -13,9 +13,8 @@ export const experiences: Experience[] = [
     period: 'Apr 2026 - present',
     role: 'Software Engineer Intern',
     summary:
-      'Working on product development in a professional engineering environment.',
+      'I work on full-stack web applications for HR operations, covering requirements definition, feature development, and operational design.',
     technologies: ['Ruby on Rails', 'AWS', 'Docker'],
-    learning:
-      'Learning how to design maintainable features and collaborate through code review and CI.',
+    learning: '',
   },
 ]
