@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap');
+
 :root {
   --text: #c8d3df;
   --text-soft: #9fb2c1;
@@ -18,7 +20,7 @@
   --cursor-y: 50vh;
 
   --sans: Inter, ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: 'Arial Rounded MT Bold', Inter, ui-sans-serif, system-ui, sans-serif;
+  --heading: Manrope, Inter, ui-sans-serif, system-ui, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);

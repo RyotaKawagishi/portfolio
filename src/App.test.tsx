@@ -16,7 +16,7 @@ describe('App', () => {
       screen.getByRole('link', { name: 'ABOUT' }),
     ).toHaveAttribute('href', '/about')
     expect(
-      screen.getByRole('heading', { level: 2, name: 'Contact' }),
+      screen.getByRole('region', { name: 'Contact' }),
     ).toBeInTheDocument()
     expect(
       screen.getByRole('link', { name: 'GitHub' }),
