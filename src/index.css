@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&family=Ubuntu:wght@700&display=swap');
 
 :root {
   --text: #c8d3df;
@@ -21,6 +21,7 @@
 
   --sans: 'Noto Sans JP', ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif;
   --heading: 'Noto Sans JP', ui-sans-serif, system-ui, sans-serif;
+  --hero-heading: Ubuntu, 'Noto Sans JP', ui-sans-serif, system-ui, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);

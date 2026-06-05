@@ -289,6 +289,7 @@
 .hero-title {
   margin: 0 0 32px;
   max-width: 780px;
+  font-family: var(--hero-heading);
   font-size: 76px;
   font-weight: 800;
   line-height: 0.96;
